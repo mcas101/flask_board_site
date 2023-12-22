@@ -10,5 +10,4 @@ RUN chmod +x /app
 
 EXPOSE 8000
 
-# CMD python -m flask --app board run --port 8000 --debug --host=0.0.0.0
 CMD [ "python", "-m", "flask", "--app", "board", "run", "--port", "8000", "--debug", "--host", "0.0.0.0"]
